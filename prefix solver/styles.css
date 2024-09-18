@@ -1,0 +1,88 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  width: 60%;
+}
+
+h1 {
+  text-align: center;
+}
+#speedControl{
+  width: 100px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+button {
+  padding: 10px 15px;
+  margin-right: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.visualization {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.column {
+  flex: 1;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.column h2 {
+  text-align: center;
+}
+
+.column .content {
+  padding: 10px;
+  background-color: #eee;
+  border: 1px solid #ddd;
+  height: 200px;
+  overflow-y: auto;
+}
+
+.stack-enter {
+  background-color: #90EE90;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 4px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+input[type="range"] {
+  width: 100%;
+  margin-top: 10px;
+}
